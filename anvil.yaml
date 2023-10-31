@@ -17,7 +17,7 @@ services:
 startup: {type: form, module: landingmodule.user_home}
 package_name: Bank
 allow_embedding: false
-name: Clone of Clone of Lender Registration (3) (2)
+name: Main_Lender_Form
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 metadata: {title: BankUserpage, logo_img: 'asset:kotackpng.png'}
