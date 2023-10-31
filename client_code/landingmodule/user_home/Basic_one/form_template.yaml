@@ -96,3 +96,4 @@ components:
   layout_properties: {grid_position: 'USIJRC,HVZKIK'}
   event_bindings: {click: button_2_click}
 is_package: true
+custom_component: true
