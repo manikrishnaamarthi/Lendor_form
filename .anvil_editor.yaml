@@ -1,0 +1,43 @@
+unique_ids:
+  forms:
+    landingmodule.user_home.Basic_two: '1697776025982836669447641.2484'
+    landingmodule.main_form.careers_main_form: '1697615600714925217843753.3889'
+    landingmodule.user_home.Basic_six: '1697779023268216180223175.56873'
+    landingmodule.user_home.Basic_one: '1697775357947181955758767.93213'
+    landingmodule.main_form.locations_main_form: '1697615690251598523989331.1929'
+    landingmodule.main_form.faqs_main_form: '1697615730888371261820943.91644'
+    landingmodule.user_home.Lender_main_form: '1697693476559646479855576.2821'
+    landingmodule.lendor_landing_page_form: '1697600319486105637487228.07764'
+    landingmodule.user_home.Basic_five: '1697778690669352325537239.86707'
+    landingmodule.main_form: '1697440381639731008406930.6686'
+    landingmodule.user_home.Basic_four: '1697778323550173323967533.9231'
+    landingmodule.user_home.Lender_main_form.Institutional_step_one.Institutional_step_three: '1697701434458146909671527.33258'
+    landingmodule.user_home.Basic_seven: '1697779566614496908793759.33374'
+    landingmodule.user_home.Lender_main_form.Individual_step_one: '1697694927413915851957364.004'
+    landingmodule.main_form.about_main_form: '1697615562341491945405971.46075'
+    landingmodule.user_home.Lender_main_form.Bank_name.Bank_final_form: '1697710706358542003396414.195'
+    landingmodule.user_home.Lender_main_form.Individual_step_one.Individual_step_three: '1697700378588215062373564.77563'
+    landingmodule.user_home.Lender_main_form.Institutional_step_one: '1697695244357917297107923.6766'
+    landingmodule.user_home.Lender_main_form.Individual_step_one.Individual_step_two: '1697699838470809239613616.476'
+    landingmodule.logout_home: '1697628033129932666155411.687'
+    landingmodule.login_main: '169746068262375047120222.39302'
+    landingmodule.user_home.Basic_three: '1697777847293793181474406.0428'
+    landingmodule.user_home.Lender_main_form.Bank_name: '1697710432250750851841574.9817'
+    landingmodule.borrower_page_landing_form: '1697546605028679431143504.2435'
+    landingmodule.user_home.Lender_main_form.Institutional_step_one.Institutional_step_four: '1697701808636203869901079.65076'
+    landingmodule.user_home: '169743967024182044931720.86536'
+    landingmodule.user_home.Lender_main_form.Institutional_step_one.Institutional_step_two: '1697701077332898215754577.2334'
+    landingmodule.user_home.Lender_main_form.Institutional_step_one.Institutional_step_five: '169770216370041214564422.25724'
+    landingmodule.user_home.borrower_user_home_registertion_form: '1697544892816118750289717.23367'
+  modules:
+    landingmodule: '1697520804476369807564428.89276'
+    landingmodule.borrower: '1697522755066277474693233.0103'
+    landingmodule.lendor: '1697522770976102154368194.37617'
+    landingmodule.main_form_module: '1697526489954988406449305.2098'
+  server_modules:
+    ServerModule1: '1697456466881978348464947.7325'
+    lendor_server: '1698326876136953426592176.9376'
+  assets:
+    kotackpng.png: '1697465675344765069229366.6483'
+    standard-page.html: SCLM3ZELRICFU3MLRUJOQDQRJ4HFIR47
+    theme.css: 6N5CRRPMR7APE424RUYKOAWDJN2MJ7GX

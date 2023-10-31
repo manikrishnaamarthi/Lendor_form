@@ -1,0 +1,116 @@
+correct_dependency_ids: {}
+dependencies: []
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
+- source: /runtime/services/anvil/users.yml
+  client_config: {allow_signup: false, enable_automatically: true, use_email: true,
+    confirm_email: true, use_google: true}
+  server_config: {user_table: users}
+- source: /runtime/services/google.yml
+  client_config: {}
+  server_config: {}
+- source: /runtime/services/anvil/email.yml
+  client_config: {}
+  server_config: {}
+startup: {type: form, module: landingmodule.user_home}
+package_name: Bank
+allow_embedding: false
+name: Clone of Clone of Lender Registration (3) (2)
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
+  server_spec: null}
+metadata: {title: BankUserpage, logo_img: 'asset:kotackpng.png'}
+startup_form: null
+db_schema:
+  users:
+    client: none
+    server: full
+    columns:
+    - name: name
+      admin_ui: {width: 200, order: 0}
+      type: string
+    - name: mail_id
+      admin_ui: {width: 200, order: 2}
+      type: string
+    - name: Date_of_signup
+      admin_ui: {width: 200, order: 4}
+      type: datetime
+    - name: pincode
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: mobile_no
+      admin_ui: {width: 200, order: 1.5}
+      type: string
+    - name: user_id
+      admin_ui: {width: 200, order: -1}
+      type: string
+    - name: passward
+      admin_ui: {width: 200, order: 1.75}
+      type: string
+    - name: email
+      admin_ui: {order: 7, width: 200}
+      type: string
+    - name: enabled
+      admin_ui: {order: 8, width: 200}
+      type: bool
+    - name: last_login
+      admin_ui: {order: 9, width: 200}
+      type: datetime
+    - name: password_hash
+      admin_ui: {order: 10, width: 200}
+      type: string
+    - name: n_password_failures
+      admin_ui: {order: 11, width: 200}
+      type: number
+    - name: confirmed_email
+      admin_ui: {order: 12, width: 200}
+      type: bool
+    - name: gender
+      admin_ui: {width: 200, order: 13}
+      type: string
+    - name: date_of_birth
+      admin_ui: {width: 200, order: 14}
+      type: date
+    title: Users
+  lendor:
+    client: full
+    server: full
+    columns:
+    - name: name
+      admin_ui: {order: 0, width: 200}
+      type: string
+    - name: gender
+      admin_ui: {order: 1, width: 200}
+      type: string
+    - name: city
+      admin_ui: {width: 200, order: 5}
+      type: string
+    - name: investment
+      admin_ui: {width: 200, order: 6}
+      type: string
+    - name: email
+      admin_ui: {width: 200, order: 8}
+      type: string
+    - name: hear
+      admin_ui: {width: 200, order: 9}
+      type: string
+    - name: profile_photo
+      admin_ui: {width: 200, order: 10}
+      type: media
+    - name: mobile
+      admin_ui: {width: 200, order: 11}
+      type: string
+    - name: term_and_condition
+      admin_ui: {width: 200, order: 12}
+      type: bool
+    - name: qualification_degree
+      admin_ui: {width: 200, order: 13}
+      type: string
+    - name: pan_card_number
+      admin_ui: {width: 200, order: 14}
+      type: string
+    - name: pan_img
+      admin_ui: {width: 200, order: 15}
+      type: media
+    title: lendor
