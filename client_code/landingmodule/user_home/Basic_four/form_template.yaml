@@ -85,4 +85,8 @@ components:
   name: button_2
   layout_properties: {grid_position: 'PGWWTM,KCCBLM'}
   event_bindings: {click: button_2_click}
+- type: form:landingmodule.user_home.Basic_one
+  properties: {}
+  name: basic_one_1
+  layout_properties: {grid_position: 'IZIYAD,JUQDBN'}
 is_package: true
